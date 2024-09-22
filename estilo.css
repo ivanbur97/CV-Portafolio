@@ -3,35 +3,69 @@
     --color-primario: #3A6D8C;
     --color-secundario: #001F3F;
     --color-terciario: #EAD8B1; 
-    
-
 }
-
+img{
+    height: 200px;
+    border-radius: 45px;
+}
 body {
     font-family: "Lucida Console", "Courier New", monospace;
     background-color: var(--bg-primario);
     text-align: center;
+    color: var(--color-secundario);
   }
 
+aside{
+    margin: 0% 10% 0% 10%;
+    column-count: 2;
+    border-radius: 15px;
+    background-color: var(--color-terciario);
+    flex-direction: row;
+    position: sticky;
+    top: 0;
+}    
+main{
+    margin: 0% 10% 0% 10%;
+    margin: 15px;
+    border-radius: 15px;
+    padding: 30px;
+    background-color: var(--color-primario);
+}
+
+h1{
+    color: var(--color-secundario);
+    font-family: "VT323", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
 
 h2{
+    color: var(--color-secundario);
+    font-family: "VT323", monospace;
+    font-weight: 400;
+    font-style: normal;
     color: white;
     background-color: var(--color-primario);
     border-radius: 2%;
 }
 
 h3{
-    color: rgb(0, 0, 0);
-    border: 2px solid  var(--color-primario);
+    color: var(--color-terciario);
+    border: 2px solid  var(--color-secundario);
+    border-radius: 10px;
 }
 
 footer{
+    
+    border-radius: 15px;
     font-size: bold;
     color: rgb(255, 255, 255);
     background-color:  var(--color-secundario);
 }
 
 audio{
+    padding: bottom 0; ;
+    border-radius: 15px 15px 0px 0px;
     width: 100%;
 }
 
