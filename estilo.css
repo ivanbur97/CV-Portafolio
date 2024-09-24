@@ -8,15 +8,24 @@ img{
     height: 200px;
     border-radius: 45px;
 }
+
+ul{
+    list-style: none;
+}
+
+
 body {
     font-family: "Lucida Console", "Courier New", monospace;
-    background-color: var(--bg-primario);
-    text-align: center;
+    background-color: var(--color-secundario);
+    
     color: var(--color-secundario);
   }
-
+div{
+    padding: 5px;
+}
 aside{
-    margin: 0% 10% 0% 10%;
+    margin: 15px;
+    box-shadow: 5px 5px 15px var(--color-secundario);
     column-count: 2;
     border-radius: 15px;
     background-color: var(--color-terciario);
@@ -25,17 +34,18 @@ aside{
     top: 0;
 }    
 main{
-    margin: 0% 10% 0% 10%;
-    margin: 15px;
+    
+    margin: 20px;
     border-radius: 15px;
-    padding: 30px;
-    background-color: var(--color-primario);
+    padding: 15px;
+    background-color: var(--bg-primario);
 }
 
 h1{
     color: var(--color-secundario);
     font-family: "VT323", monospace;
     font-weight: 400;
+    font-size: 40px;
     font-style: normal;
 }
 
@@ -53,6 +63,7 @@ h3{
     color: var(--color-terciario);
     border: 2px solid  var(--color-secundario);
     border-radius: 10px;
+    background-color: var(--color-secundario);
 }
 
 footer{
@@ -60,11 +71,11 @@ footer{
     border-radius: 15px;
     font-size: bold;
     color: rgb(255, 255, 255);
-    background-color:  var(--color-secundario);
+    background-color:  var(--color-primario);
 }
 
 audio{
-    padding: bottom 0; ;
+ 
     border-radius: 15px 15px 0px 0px;
     width: 100%;
 }
